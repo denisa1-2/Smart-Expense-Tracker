@@ -2,9 +2,9 @@
 
 ## Overview
 
-Smart Expense Tracker is a backend RESt API built with Java and Spring Boot thta allows users to manage personal expenses, categorize spending, and analyze financial data through aggregated statistics.
+Smart Expense Tracker is a backend REST API built with Java and Spring Boot that allows users to manage personal expenses, categorize spending, and analyze financial data through aggregated statistics.
 
-The application demonstrates core backend development concepts such as a RESTful API design, database relationships, validation, and business logic implementation.
+The application demonstrates core backend development concepts such as  RESTful API design, database relationships, validation, and business logic implementation.
 
 ## Features
 
@@ -15,7 +15,7 @@ The application demonstrates core backend development concepts such as a RESTful
 
 ### Category Management
 - Create categories (e.g., Food, Transport, Shopping)
-- prevent duplicate categories
+- Prevent duplicate categories
 - Get all categories
 
 ### Expense Management
@@ -43,7 +43,7 @@ The application demonstrates core backend development concepts such as a RESTful
 - Spring Boot
 - Spring Data JPA
 - Hibernate
-- MySSQL
+- MySQL
 - Lombok
 - Maven
 - Postman (API testing)
@@ -92,7 +92,7 @@ The project follows a layered architecture: controller -> service -> repository 
 - `GET /api/expenses/stats/category`
 - `GET /api/expenses/stats/month?month=MM&year=YYYY`
 
-## Exemple Requests
+## Example Requests
 
 ### Create user
 ```json
@@ -144,7 +144,7 @@ The project follows a layered architecture: controller -> service -> repository 
   
 ## Future Improvements
 - Update (PUT) endpoints
-- Authentification & autorization (Spring Security)
+- Authentication & autorization (Spring Security)
 - Frontend integration
 - Docker support
      
